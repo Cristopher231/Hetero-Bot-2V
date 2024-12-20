@@ -1,0 +1,31 @@
+{
+  "name": "hetero-bot-md",
+  "version": "1.0.0",
+  "description": "WhatsApp Multi-Device Bot with advanced features",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "author": "Cristopher231",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/boom": "10.0.1",
+    "@whiskeysockets/baileys": "6.5.0",
+    "chalk": "4.1.2",
+    "dotenv": "16.3.1",
+    "file-type": "16.5.4",
+    "fluent-ffmpeg": "2.1.2",
+    "moment-timezone": "0.5.43",
+    "mongoose": "7.4.3",
+    "node-fetch": "2.6.12",
+    "pino": "8.15.0",
+    "pino-pretty": "10.2.0",
+    "qrcode-terminal": "0.12.0",
+    "sharp": "0.32.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
